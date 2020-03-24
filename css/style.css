@@ -1,0 +1,9 @@
+.navbar{
+  min-height: 30vh;
+  background-color: red;
+}
+
+.firstPage{
+  min-height: 70vh;
+  background-color: blue;
+}
