@@ -1,22 +1,39 @@
-/* Includo i font */
+/****************************************************
+Includo il Bodoni Bold
+****************************************************/
 @font-face {
   /*Bodoni Mt Bold Italic (Titoli)*/
   font-family: bodoni-mt-bold-italic;
   src: url(../fonts/bodoni_mt_bold_italic.TTF);
+}
 
+/****************************************************
+Includo il Bodoni Book
+****************************************************/
+@font-face{
   /*Bodoni Book (Paragrafi)*/
   font-family: bodoni-book;
   src: url(../fonts/bodoni_book.TTF);
 }
 
+/****************************************************
+Titoli
+****************************************************/
 h1,h2,h3,h4{
   font-family: bodoni-mt-bold-italic, Verdana, Arial;
 }
 
+/****************************************************
+Paragrafi
+****************************************************/
 p{
   font-family: bodoni-book, Verdana, Arial;
+  font-size: 20px;
 }
 
+/****************************************************
+Navbar
+****************************************************/
 .navbar{
   min-height: 30vh;
   background-color: red;
