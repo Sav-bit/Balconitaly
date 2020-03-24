@@ -17,10 +17,15 @@ h1,h2,h3,h4{
 
 .navbar{
   min-height: 30vh;
-  background-color: red;
+  background-color: #F6C755;
 }
 
 .firstPage{
   min-height: 70vh;
-  background-color: blue;
+  /*background-color: blue;*/
+}
+
+.secondPage{
+  min-height: 70vh;
+  background-color: #F6C755;
 }
