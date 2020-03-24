@@ -1,3 +1,20 @@
+/*Includo il font 'Bodoni MT Bold Italic'*/
+@font-face {
+  font-family: bodoni-mt-bold-italic;
+  src: url(../fonts/bodoni_mt_bold_italic.TTF);
+}
+
+/*@font-face {
+  font-family: fontPersonalizzato;
+  src: url(../fonts/bodoni_mt_bold_italic.TTF) format('truetype'),
+       url(../fonts/bodoni_mt_bold_italic.woff) format('woff'),
+       url(../fonts/bodoni_mt_bold_italic.eot) format('embedded-opentype');
+}*/
+
+h1,h2,h3,h4{
+  font-family: bodoni-mt-bold-italic, Verdana, Arial;
+}
+
 .navbar{
   min-height: 30vh;
   background-color: red;
