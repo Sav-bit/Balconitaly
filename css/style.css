@@ -36,15 +36,12 @@ Navbar
 ****************************************************/
 .navbar{
   min-height: 30vh;
-  background-color: #F6C755;
 }
 
-.firstPage{
+.content-page{
   min-height: 70vh;
-  /*background-color: blue;*/
 }
 
-.secondPage{
-  min-height: 70vh;
+.bg-yellow{
   background-color: #F6C755;
 }
