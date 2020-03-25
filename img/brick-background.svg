@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{opacity:0.4;}
+	.st2{fill:#FB6C5D;}
+	.st3{opacity:0.1;fill:url(#SVGID_1_);}
+</style>
+<pattern  width="318" height="206.19" patternUnits="userSpaceOnUse" id="Nuovo_pattern" viewBox="0 -206.19 318 206.19" style="overflow:visible;">
+	<g>
+		<rect y="-206.19" class="st0" width="318" height="206.19"/>
+		<g>
+			<polygon class="st1" points="88,-127 0,-127 0,-162.02 5,-166.91 88,-162.02 93,-131.91 			"/>
+			<rect x="5" y="-167.19" class="st2" width="88" height="35.02"/>
+		</g>
+		<g>
+			<polygon class="st1" points="133,-92 45,-92 45,-127.02 50,-131.91 133,-127.02 138,-96.91 			"/>
+			<rect x="50" y="-132.19" class="st2" width="88" height="35.02"/>
+		</g>
+		<g>
+			<polygon class="st1" points="133,0 45,0 45,-35.02 50,-39.91 133,-35.02 138,-4.91 			"/>
+			<rect x="50" y="-40.19" class="st2" width="88" height="35.02"/>
+		</g>
+		<g>
+			<polygon class="st1" points="313,-49 225,-49 225,-84.02 230,-88.91 313,-84.02 318,-53.91 			"/>
+			<rect x="230" y="-89.19" class="st2" width="88" height="35.02"/>
+		</g>
+		<g>
+			<polygon class="st1" points="226,-166 138,-166 138,-201.02 143,-205.91 226,-201.02 231,-170.91 			"/>
+			<rect x="143" y="-206.19" class="st2" width="88" height="35.02"/>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#Nuovo_pattern" patternTransform="matrix(1 0 0 1 135.84 132.6996)">
+</pattern>
+<rect x="-0.16" class="st3" width="1080" height="1080"/>
+</svg>

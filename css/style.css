@@ -27,7 +27,7 @@ h1,h2,h3,h4{
 /****************************************************
 Paragrafi
 ****************************************************/
-p{
+p,ul,ol,li,button{
   font-family: bodoni-book, Verdana, Arial;
   font-size: 20px;
 }
@@ -50,25 +50,82 @@ Background
 ****************************************************/
 .bg-white{
   background-color: #FFF;
-  padding: 100px 0px;
+  padding: 100px 15px;
 }
 
 .bg-yellow{
-  background-color: #F6C755;
-  padding: 100px 0px;
+  background: url('../img/brick-background.svg'), linear-gradient(rgba(247,199,94, 1), rgba(247,199,94,1));
+  background-size: 500px;
+  padding: 100px 15px;
+}
+
+/****************************************************
+Il Progetto
+****************************************************/
+.the-project .btn-red{
+  background: #FB6C5D;
+  color: #FFF;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+
+.the-project .btn-red:hover{
+  background: #F87D72;
+}
+
+/****************************************************
+Come Funziona
+****************************************************/
+.how-it-works img{
+  max-width: 400px;
 }
 
 /****************************************************
 Chi Siamo
 ****************************************************/
-.circle-who-we-are{
+.who-we-are .circle-who-we-are{
   width: 180px;
   height: 180px;
   border-radius: 50%;
   border: 5px solid #F6C755;
   margin: 0 auto;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  box-shadow: -5px 5px 0px #DBDBDB;
+}
+
+.who-we-are .sign-who-we-are{
+  margin-top: 10px;
+  font-size: 1.3rem;
 }
 
 /****************************************************
 Footer
 ****************************************************/
+footer hr{
+  background: #FFF;
+  max-width: 600px;
+}
+
+/****************************************************
+Video Youtube
+****************************************************/
+.youtube_video{
+  height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+  box-shadow: -5px 5px 0px #DBDBDB;
+}
+.youtube_video iframe,
+.youtube_video object,
+.youtube_video embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
