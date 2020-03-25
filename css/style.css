@@ -39,6 +39,11 @@ Navbar
   background-color: #F6C755;
 }
 
+.navbar img{
+  max-width: 300px;
+  margin: 30px auto;
+}
+
 .firstPage{
   min-height: 70vh;
   /*background-color: blue;*/
