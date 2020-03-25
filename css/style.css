@@ -41,6 +41,7 @@ Navbar
 
 .navbar img{
   max-width: 300px;
+  padding: 50px 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
