@@ -44,10 +44,12 @@ Navbar
   margin: 30px auto;
 }
 
-.page-content{
-  min-height: 70vh;
+.bg-white{
+  background-color: #FFF;
+  padding: 100px 0px;
 }
 
 .bg-yellow{
   background-color: #F6C755;
+  padding: 100px 0px;
 }
