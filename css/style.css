@@ -45,6 +45,9 @@ Navbar
   margin-right: auto !important;
 }
 
+/****************************************************
+Background
+****************************************************/
 .bg-white{
   background-color: #FFF;
   padding: 100px 0px;
@@ -54,3 +57,18 @@ Navbar
   background-color: #F6C755;
   padding: 100px 0px;
 }
+
+/****************************************************
+Chi Siamo
+****************************************************/
+.circle-who-we-are{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #F6C755;
+  margin: 0 auto;
+}
+
+/****************************************************
+Footer
+****************************************************/
