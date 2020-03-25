@@ -38,7 +38,12 @@ Navbar
   min-height: 30vh;
 }
 
-.content-page{
+.navbar img{
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.firstPage{
   min-height: 70vh;
 }
 
