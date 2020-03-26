@@ -50,7 +50,7 @@ Background
 ****************************************************/
 .bg-white{
   background-color: #FFF;
-  padding: 80px 15px;
+  padding: 80px 25px;
 }
 
 .bg-yellow{
@@ -85,8 +85,8 @@ Come Funziona
 Chi Siamo
 ****************************************************/
 .who-we-are .circle-who-we-are{
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 5px solid #F6C755;
   margin: 0 auto;
@@ -106,7 +106,12 @@ Footer
 ****************************************************/
 footer hr{
   background: #FFF;
-  max-width: 600px;
+  max-width: 1200px;
+}
+
+footer img{
+  width: 50px;
+  margin: 0px 10px;
 }
 
 /****************************************************
@@ -145,7 +150,7 @@ Media queries
   }
 
   .bg-white{
-    padding: 25px 15px !important;
+    padding: 25px 25px !important;
   }
 
   .bg-yellow{

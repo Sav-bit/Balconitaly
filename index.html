@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -33,7 +33,7 @@
           <div class="col-sm-12 col-md-6 py-4">
             <h2>Il progetto</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#"><button class="btn-red mt-2">Scopri di più</button></a>
+            <a href="#how-it-works"><button class="btn-red mt-2">Scopri di più</button></a>
           </div>
           <div class="col-sm-12 col-md-6 py-4">
             <div class="youtube_video">
@@ -46,10 +46,9 @@
     <!-- /Section il soggetto
     --------------------------------------------------------------------------->
 
-
     <!-- section Come funziona
     --------------------------------------------------------------------------->
-    <section class="container-fluid bg-yellow how-it-works">
+    <section id="how-it-works" class="container-fluid bg-yellow how-it-works">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 py-4 text-center">
@@ -79,27 +78,31 @@
             <h2>Chi Siamo</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-4 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3">
+            <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
+            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+          </div>
+          <div class="col-sm-6 col-md-3 mt-3">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
@@ -114,7 +117,8 @@
     <footer class="container-fluid bg-yellow text-white text-center p-5">
       <p class="m-0">Copyright © 2020 - Balconitaly<br>Progetto Benefico Covid 2020</p>
       <hr>
-      <p>Facebook - Instagram</p>
+      <a href="https://www.facebook.com/balconitaly/"><img src="img/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/balconitaly/"><img src="img/instagram-logo.svg" alt="Instagram"></a>
     </footer>
     <!-- /Footer
     ----------------------------------------------------------------------->
@@ -124,5 +128,22 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!--Laxxx (Animation)-->
+    <script src="js/lax.min.js"></script>
+
+    <!--Custom JS-->
+    <script>
+      //Inizializzazione Laxxx(Animazioni)
+      window.onload = function() {
+      	lax.setup() // init
+
+      	const updateLax = () => {
+      		lax.update(window.scrollY)
+      		window.requestAnimationFrame(updateLax)
+      	}
+
+      	window.requestAnimationFrame(updateLax)
+      }
+    </script>
   </body>
 </html>
