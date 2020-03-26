@@ -129,3 +129,27 @@ Video Youtube
 	top: 0;
 	width: 100%;
 }
+
+/*******************************************************************************
+Media queries
+*******************************************************************************/
+
+@media (max-width: 576px) {
+
+  .navbar{
+    min-height: 20vh !important;
+  }
+
+  navbar img{
+    max-width: 200px !important;
+  }
+
+  .bg-white{
+    padding: 25px 15px !important;
+  }
+
+  .bg-yellow{
+    padding: 25px 15px !important;
+  }
+
+}
