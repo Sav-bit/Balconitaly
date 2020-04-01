@@ -12,6 +12,9 @@
     <!--Titolo-->
     <title>Balconitaly - La beneficenza si fa alla luce del sole, sui balconi, cantando.</title>
 
+    <!--Animation On Scroll (CSS)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Favicon-->
     <link rel="icon" href="img/favicon.ico" />
   </head>
@@ -42,7 +45,7 @@
             <p>Questo e molto altro è il progetto <strong>"Balconitaly"</strong>!</p>
             <a href="#how-it-works"><button class="btn-red mt-2">Ok, ma come funziona?</button></a>
           </div>
-          <div class="d-none d-xl-block col-xl-6">
+          <div class="d-none d-xl-block col-xl-6" data-aos="zoom-in">
             <div class="balcony-container">
               <div class="balcony-container-img bg-yellow p-3">
                 <img src="img/palazzo.svg" alt="Palazzo Balconitaly">
@@ -60,7 +63,7 @@
     <section id="how-it-works" class="container-fluid bg-yellow text-white how-it-works">
       <div class="container">
         <div class="row">
-          <div class="d-none d-xl-block col-xl-6">
+          <div class="d-none d-xl-block col-xl-6" data-aos="zoom-in">
             <div class="descrizione-container">
               <div class="descrizione-container-img p-5">
                 <img src="img/vendesi.svg" alt="Descrizione Balconi">
@@ -93,31 +96,31 @@
             <h2>Chi Siamo</h2>
             <p>Siamo un gruppo di ragazzi, di quelli che al momento stanno nelle retrovie, al calduccio delle proprie case, ma anche di quelli che non ce la fanno proprio a stare fermi a guardare.</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
             <p class="sign-who-we-are mb-0">Nome Cognome</p>
           </div>
@@ -145,6 +148,13 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!--Animation On Scroll (JS)-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

@@ -36,7 +36,7 @@ p,ul,ol,li,button{
 Navbar
 ****************************************************/
 .navbar{
-  min-height: 30vh;
+  min-height: 100vh;
 }
 
 .navbar img{
