@@ -60,25 +60,60 @@ Background
 }
 
 /****************************************************
-Il Progetto
+Button Red
 ****************************************************/
-.the-project .btn-red{
+.btn-red{
   background: #FB6C5D;
   color: #FFF;
   border: none;
   padding: 15px 30px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
-.the-project .btn-red:hover{
+.btn-red:hover{
   background: #F87D72;
+}
+
+/****************************************************
+Il progetto
+****************************************************/
+.the-project h2{
+  margin-bottom: 1.2rem;
+}
+
+.the-project .balcony-container{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.the-project .balcony-container .balcony-container-img{
+  display: table-cell;
+  vertical-align: middle;
+  background-clip: content-box;
+  width: 100%;
+  height: 100%;
 }
 
 /****************************************************
 Come Funziona
 ****************************************************/
-.how-it-works img{
-  max-width: 400px;
+.how-it-works h2{
+  margin-bottom: 1.2rem;
+}
+
+.how-it-works .descrizione-container{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.how-it-works .descrizione-container .descrizione-container-img{
+  display: table-cell;
+  vertical-align: middle;
+  background-clip: content-box;
+  width: 100%;
+  height: 100%;
 }
 
 /****************************************************
@@ -98,7 +133,7 @@ Chi Siamo
 
 .who-we-are .sign-who-we-are{
   margin-top: 10px;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 /****************************************************
