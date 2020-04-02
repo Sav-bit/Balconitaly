@@ -13,7 +13,7 @@
     <title>Balconitaly - La beneficenza si fa alla luce del sole, sui balconi, cantando.</title>
 
     <!--Animation On Scroll (CSS)-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 
     <!--Favicon-->
     <link rel="icon" href="img/favicon.ico" />
@@ -22,18 +22,21 @@
 
     <!--Navbar
     ----------------------------------------------------------------------->
-    <navbar class="container-fluid navbar bg-yellow py-5">
-      <img src="img/balconitaly-logo.png" alt="Logo">
+    <navbar class="container-fluid navbar bg-yellow py-5 text-center">
+      <div class="col-12">
+        <img src="img/logo.svg" alt="Logo">
+      </div>
+      <a class="scrollLink" href="#the-project"><img class="arrow-down" src="img/arrow-down.svg" alt="Arrow Down"></a>
     </navbar>
     <!-- /Navbar
     ----------------------------------------------------------------------->
 
     <!-- section il soggetto
     ----------------------------------------------------------------------------->
-    <section class="the-project">
+    <section id="the-project" class="the-project">
       <div class="container bg-white">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-4">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-4" data-aos="fade-right" data-aos-duration="2000">
             <h2>Il progetto</h2>
             <p><strong>La beneficenza si fa alla luce del sole, sui balconi, cantando.</strong><p>
             <p><strong>Siamo in guerra dicono in tanti</strong>, e mentre fai provviste per la quarantena, porti il cane a fare i bisogni, condividi l'ennesima challenge su Instagram, <strong>c'è qualcuno che questa guerra, molto più degli altri, la sta combattendo in prima linea.</strong></p>
@@ -43,9 +46,9 @@
             <p>Immagina se ognuno di noi avesse un <strong>"balcone virtuale"</strong> dal quale poter cantare, uno spazio per sé ma accanto a tutti gli altri in cui poter urlare al mondo quello che sente, le sue speranze, i suoi timori.</p>
             <p>E immagina che tutto questo possa avere un <strong>riscontro reale</strong> aiutando concretamente la <strong>protezione civile italiana</strong>, che sotto un'unica bandiera porta dentro i segni indelebili della crudele realtà che stiamo vivendo.</p>
             <p>Questo e molto altro è il progetto <strong>"Balconitaly"</strong>!</p>
-            <a href="#how-it-works"><button class="btn-red mt-2">Ok, ma come funziona?</button></a>
+            <a class="scrollLink" href="#how-it-works"><button class="btn-red mt-2">Ok, ma come funziona?</button></a>
           </div>
-          <div class="d-none d-xl-block col-xl-6" data-aos="zoom-in">
+          <div class="d-none d-xl-block col-xl-6" data-aos="fade-left" data-aos-duration="2000">
             <div class="balcony-container">
               <div class="balcony-container-img bg-yellow p-3">
                 <img src="img/palazzo.svg" alt="Palazzo Balconitaly">
@@ -63,14 +66,14 @@
     <section id="how-it-works" class="container-fluid bg-yellow text-white how-it-works">
       <div class="container">
         <div class="row">
-          <div class="d-none d-xl-block col-xl-6" data-aos="zoom-in">
+          <div class="d-none d-xl-block col-xl-6" data-aos="fade-right" data-aos-duration="2000">
             <div class="descrizione-container">
               <div class="descrizione-container-img p-5">
                 <img src="img/vendesi.svg" alt="Descrizione Balconi">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-4">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-4"  data-aos="fade-left" data-aos-duration="2000">
             <h2>Come Funziona</h2>
             <p>Compra un appartamento vista Italia, affacciati dal balcone, respira e fai respirare chi purtroppo non riesce più a farlo.</p>
             <p>I passaggi sono molto semplici:</p>
@@ -96,33 +99,33 @@
             <h2>Chi Siamo</h2>
             <p>Siamo un gruppo di ragazzi, di quelli che al momento stanno nelle retrovie, al calduccio delle proprie case, ma anche di quelli che non ce la fanno proprio a stare fermi a guardare.</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Antonio Cossari</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Pietro Giampà</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Raul Arcidiacono</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Roberto Alecci</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Saverio Procopio</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Simone Gatto</p>
           </div>
-          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in">
+          <div class="col-sm-6 col-md-3 mt-3" data-aos="zoom-in" data-aos-duration="2000" data-aos-offset="0">
             <div class="circle-who-we-are" style="background: url('https://source.unsplash.com/random');"></div>
-            <p class="sign-who-we-are mb-0">Nome Cognome</p>
+            <p class="sign-who-we-are mb-0">Sofia Mazza</p>
           </div>
         </div>
       </div>
@@ -137,8 +140,8 @@
       <p class="m-0">Contatti: balconitaly@gmail.com</p>
       <p class="m-0">Progetto Benefico Covid-19</p>
       <hr>
-      <a href="https://www.facebook.com/balconitaly/"><img src="img/facebook-logo.svg" alt="Facebook"></a>
-      <a href="https://www.instagram.com/balconitaly/"><img src="img/instagram-logo.svg" alt="Instagram"></a>
+      <a href="https://www.facebook.com/Balconitaly_Official"><img src="img/facebook-logo.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/balconitaly_official/"><img src="img/instagram-logo.svg" alt="Instagram"></a>
     </footer>
     <!-- /Footer
     ----------------------------------------------------------------------->
@@ -150,10 +153,20 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!--Animation On Scroll (JS)-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
 
     <script>
+      //Inizializzazione Libreria Animazioni
       AOS.init();
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $( "a.scrollLink" ).click(function( event ) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+        });
+      });
     </script>
 
   </body>

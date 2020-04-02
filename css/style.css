@@ -40,9 +40,14 @@ Navbar
 }
 
 .navbar img{
-  max-width: 300px;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  width: 300px;
+}
+
+.navbar .arrow-down{
+  width: 40px;
+  position: absolute;
+  bottom: 80px;
+  left: calc(50% - 20px);
 }
 
 /****************************************************
@@ -176,20 +181,23 @@ Media queries
 
 @media (max-width: 576px) {
 
-  .navbar{
-    min-height: 20vh !important;
-  }
-
   navbar img{
     max-width: 200px !important;
   }
 
+  .navbar .arrow-down{
+    width: 40px;
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 20px);
+  }
+
   .bg-white{
-    padding: 25px 25px !important;
+    padding: 40px 25px !important;
   }
 
   .bg-yellow{
-    padding: 25px 15px !important;
+    padding: 40px 15px !important;
   }
 
 }
