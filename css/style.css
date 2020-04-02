@@ -181,8 +181,8 @@ Media queries
 
 @media (max-width: 576px) {
 
-  navbar img{
-    max-width: 200px !important;
+  .navbar img{
+    width: 200px;
   }
 
   .navbar .arrow-down{
