@@ -1,0 +1,8 @@
+#Inizio del file robots
+
+#Permetto a tutti i motori di ricerca l'indicizzazione
+User-agent: *
+
+#Esempi di permesso di indicizzazione concessa/revocata (disabilitati)
+#Disallow: /directory/
+#Allow: /directory/image.jpg
